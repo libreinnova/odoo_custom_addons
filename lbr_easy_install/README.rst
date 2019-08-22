@@ -42,3 +42,9 @@ We provides this application without warranty of any kind.
 
 We does not warrant that the module will meet your requirements;
 that the current application will be uninterrupted, timely, secure, or error-free or that any defects or errors will be corrected.
+
+-------------
+
+Copyright(c): 2019 Libreinnova (https://libreinnova.com/)
+
+All Rights Reserved

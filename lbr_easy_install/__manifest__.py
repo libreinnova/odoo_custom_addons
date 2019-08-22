@@ -13,6 +13,7 @@
     'category': 'Inventory',
     'author': 'Libreinnova',
     'website': 'https://libreinnova.com/',
+    'license': 'AGPL-3',
     'images': [
         'static/description/icon.png'
     ],

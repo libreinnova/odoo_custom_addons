@@ -1,3 +1,6 @@
+.. |maturity| image:: https://img.shields.io/badge/maturity-Stable-brightgreen.png
+    :alt: Stable
+
 .. |badge1| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
@@ -10,12 +13,14 @@
 LBR easy install
 ================
 
-|badge1| |badge2|
+|maturity| |badge1| |badge2|
 
 One-click install of base Odoo modules
 --------------------------------------
 
 This module contains dependencies with base Odoo modules of CRM, projects, sales and HR.
+
+It installs spain localization packages.
 
 Author
 ------

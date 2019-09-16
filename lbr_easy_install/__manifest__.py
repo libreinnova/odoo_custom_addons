@@ -10,7 +10,7 @@
     'version': '1.0',
     'summary': 'One-click install of base Odoo modules',
     'description': '',
-    'category': 'Inventory',
+    'category': 'Tools',
     'author': 'Libreinnova',
     'website': 'https://libreinnova.com/',
     'license': 'AGPL-3',

@@ -23,13 +23,25 @@ This module adds various improvements:
 * Modify *General Settings > Accounting* page.
 * Allow to expand the accounting module with `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
 * Contain Spanish translation for this module.
+* Install third-party technical modules y applications.
 
 To install
 ~~~~~~~~~~
 
-This module installs several applications and technical modules by OCA:
+This module installs third-party several applications and technical modules:
 
-* account_balance_line module *(for show balance total in move line view)*
+.. list-table::
+    :header-rows: 0
+
+    * - `account_balance_line <https://www.odoo.com/apps/modules/12.0/account_balance_line/>`_
+      - Balance on journal items
+      - This module adds a balance total for lines in move line view.
+    * - `account_coa_menu <https://www.odoo.com/apps/modules/12.0/account_coa_menu/>`_
+      - Chart of Accounts Menus
+      - This module adds menu entries Chart of Accounts and all it sub menus.
+    * - `l10n_es_aeat <https://www.odoo.com/apps/modules/12.0/l10n_es_aeat/>`_
+      - AEAT base
+      - Base module for AEAT statements. Requires *account_tax_balance* and *date_range* modules.
 
 Author
 ------

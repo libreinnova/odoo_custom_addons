@@ -19,7 +19,9 @@
     ],
     'depends': [
         'account',
-        'account_balance_line'
+        'account_balance_line',
+        'account_coa_menu',
+        'l10n_es_aeat'
     ],
     'data': [
         'views/res_config_settings.xml',

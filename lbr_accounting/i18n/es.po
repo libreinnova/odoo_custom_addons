@@ -1,13 +1,17 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* lbr_accounting
+#	* accounting_pdf_reports
+#	* om_account_asset
+#	* om_account_accountant
+#	* om_account_budget
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 06:57+0000\n"
-"PO-Revision-Date: 2019-09-16 06:57+0000\n"
+"POT-Creation-Date: 2019-10-03 09:28+0000\n"
+"PO-Revision-Date: 2019-10-03 09:28+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,14 +25,31 @@ msgid "Accounting Reports, Asset Management and Account Budget For Odoo12 Commun
 msgstr "Informes contables, gestión de activos y administración de presupuestos para Odoo12 Community Edition"
 
 #. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_account_bank_statement_import_n43
+msgid "Click here to install this module (by Spanish Localization Team, Tecnativa, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por Spanish Localization Team, Tecnativa, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
 #: model:ir.model,name:lbr_accounting.model_res_config_settings
 msgid "Config Settings"
 msgstr "Opciones de Configuración"
 
 #. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_account_bank_statement_import_n43
+msgid "Import of Spanish bank statements (Rule 43)"
+msgstr "Importación de extractos bancarios españoles (Norma 43)"
+
+#. module: lbr_accounting
 #: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
 msgid "Install this module for activate accounting Reports, Asset Management and Account Budget For Odoo12 Community Edition."
 msgstr "Instala este módulo para activar informes contables, gestión de activos y administración de presupuestos para Odoo12 Community Edition."
+
+#. module: lbr_accounting
+#: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
+msgid "Install this module for activate import of Spanish bank statements (Rule 43).<br/>\n"
+"                                By Spanish Localization Team, Tecnativa, Odoo Community Association (OCA)."
+msgstr "Instala este módulo para activar importación de extractos bancarios españoles (Norma 43).<br/>\n"
+"                                Por Spanish Localization Team, Tecnativa, Odoo Community Association (OCA)."
 
 #. module: lbr_accounting
 #: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_om_account_accountant
@@ -44,14 +65,6 @@ msgstr "Integrar Odoo12 Accounting"
 #: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
 msgid "Save this page and come back here to apply the changes."
 msgstr "Guarda esta página y luego regresa para aplicar los cambios."
-
-
-##### ##### ##### #####
-#
-# accounting_pdf_reports
-#
-##### ##### ##### #####
-
 
 #. module: accounting_pdf_reports
 #: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_generalledger
@@ -1086,14 +1099,6 @@ msgstr "Debe establecer una duración del periodo mayor que 0"
 #, python-format
 msgid "You must set a start date."
 msgstr "Debe definir una fecha de inicio."
-
-
-##### ##### ##### #####
-#
-# om_account_asset
-#
-##### ##### ##### #####
-
 
 #. module: om_account_asset
 #: code:addons/om_account_asset/models/account_asset.py:429
@@ -2306,25 +2311,10 @@ msgstr "ej. Laptop iBook"
 msgid "months"
 msgstr "meses"
 
-
-##### ##### ##### #####
-#
-# om_account_accountant
-#
-##### ##### ##### #####
-
-
 #. module: om_account_accountant
 #: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
 msgid "Accounting"
 msgstr "Contabilidad"
-
-
-##### ##### ##### #####
-#
-# om_account_budget
-#
-##### ##### ##### #####
 
 #. module: om_account_budget
 #: code:addons/om_account_budget/models/account_budget.py:277

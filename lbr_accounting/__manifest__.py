@@ -24,8 +24,14 @@
         'l10n_es_aeat'
     ],
     'data': [
+        'views/account_invoice.xml',
         'views/res_config_settings.xml',
     ],
+    'external_dependencies': {
+        'python': [
+            'zeep',
+        ]
+    },
     'installable': True,
     'application': False,
 }

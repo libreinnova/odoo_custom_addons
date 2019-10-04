@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:28+0000\n"
-"PO-Revision-Date: 2019-10-03 09:28+0000\n"
+"POT-Creation-Date: 2019-10-04 08:37+0000\n"
+"PO-Revision-Date: 2019-10-04 08:37+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,9 +20,80 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: lbr_accounting
+#: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">AEAT integration</span>"
+msgstr "<span class=\"o_form_label\">Integración con AEAT</span>"
+
+#. module: lbr_accounting
+#: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
+msgid "<strong>Attention!</strong> This module required manual configuration.<br/>"
+msgstr "<strong>Atención!</strong> Este módulo requiere una configuración manual.<br/>"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod111
+msgid "AEAT 111 model"
+msgstr "AEAT modelo 111"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod115
+msgid "AEAT 115 model"
+msgstr "AEAT modelo 115"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod123
+msgid "AEAT 123 model"
+msgstr "AEAT modelo 123"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod216
+msgid "AEAT 216 model"
+msgstr "AEAT modelo 216"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod303
+msgid "AEAT 303 model"
+msgstr "AEAT modelo 303"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod347
+msgid "AEAT 347 model"
+msgstr "AEAT modelo 347"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod349
+msgid "AEAT 349 model"
+msgstr "AEAT modelo 349"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod390
+msgid "AEAT 390 model"
+msgstr "AEAT modelo 390"
+
+#. module: lbr_accounting
 #: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_om_account_accountant
 msgid "Accounting Reports, Asset Management and Account Budget For Odoo12 Community Edition"
 msgstr "Informes contables, gestión de activos y administración de presupuestos para Odoo12 Community Edition"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_sii
+msgid "Click here to install this module (by Acysos S.L., Diagram, Minorisa, Studio73, FactorLibre, Comunitea, Otherway, Tecnativa, Javi Melendez, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por Acysos S.L., Diagram, Minorisa, Studio73, FactorLibre, Comunitea, Otherway, Tecnativa, Javi Melendez, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod111
+msgid "Click here to install this module (by AvanzOSC, RGB Consulting SL, Tecnativa, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por AvanzOSC, RGB Consulting SL, Tecnativa, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod115
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod216
+msgid "Click here to install this module (by AvanzOSC, Tecnativa, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por AvanzOSC, Tecnativa, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod303
+msgid "Click here to install this module (by Guadaltech, AvanzOSC, Tecnativa, Eficent, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por Guadaltech, AvanzOSC, Tecnativa, Eficent, Odoo Community Association (OCA))"
 
 #. module: lbr_accounting
 #: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_account_bank_statement_import_n43
@@ -30,9 +101,34 @@ msgid "Click here to install this module (by Spanish Localization Team, Tecnativ
 msgstr "Haz un click aquí para instalar este módulo (por Spanish Localization Team, Tecnativa, Odoo Community Association (OCA))"
 
 #. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod349
+msgid "Click here to install this module (by Tecnativa, Eficent, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por Tecnativa, Eficent, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod390
+msgid "Click here to install this module (by Tecnativa, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por Tecnativa, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod347
+msgid "Click here to install this module (by Tecnativa, PESOL, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por Tecnativa, PESOL, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,help:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_mod123
+msgid "Click here to install this module (by Tecnativa, Spanish Localization Team, Odoo Community Association (OCA))"
+msgstr "Haz un click aquí para instalar este módulo (por Tecnativa, Spanish Localization Team, Odoo Community Association (OCA))"
+
+#. module: lbr_accounting
 #: model:ir.model,name:lbr_accounting.model_res_config_settings
 msgid "Config Settings"
 msgstr "Opciones de Configuración"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_sii
+msgid "Immediate Supply of Information on VAT (SII)"
+msgstr "Suministro Inmediato de Información en el IVA"
 
 #. module: lbr_accounting
 #: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_account_bank_statement_import_n43
@@ -52,6 +148,16 @@ msgstr "Instala este módulo para activar importación de extractos bancarios es
 "                                Por Spanish Localization Team, Tecnativa, Odoo Community Association (OCA)."
 
 #. module: lbr_accounting
+#: model:ir.model,name:lbr_accounting.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: lbr_accounting
+#: model:ir.model.fields,field_description:lbr_accounting.field_account_invoice__journal_id
+msgid "Journal"
+msgstr "Diario"
+
+#. module: lbr_accounting
 #: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_om_account_accountant
 msgid "Odoo12 Accounting (by Odoo Mates & Odoo SA)"
 msgstr "Odoo12 Accounting (por Odoo Mates & Odoo SA)"
@@ -65,6 +171,21 @@ msgstr "Integrar Odoo12 Accounting"
 #: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
 msgid "Save this page and come back here to apply the changes."
 msgstr "Guarda esta página y luego regresa para aplicar los cambios."
+
+#. module: lbr_accounting
+#: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
+msgid "See README information or go to the"
+msgstr "Vea información en README o vaya a la"
+
+#. module: lbr_accounting
+#: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
+msgid "You can install all the AEAT models that you need here."
+msgstr "Puede instalar aquí los modelos de AEAT que necesite."
+
+#. module: lbr_accounting
+#: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
+msgid "module page in Odoo Apps"
+msgstr "página del módulo en Odoo Apps"
 
 #. module: accounting_pdf_reports
 #: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_generalledger

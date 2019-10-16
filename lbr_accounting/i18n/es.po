@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-04 08:37+0000\n"
-"PO-Revision-Date: 2019-10-04 08:37+0000\n"
+"POT-Creation-Date: 2019-10-16 07:23+0000\n"
+"PO-Revision-Date: 2019-10-16 07:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -123,7 +123,7 @@ msgstr "Haz un click aquí para instalar este módulo (por Tecnativa, Spanish Lo
 #. module: lbr_accounting
 #: model:ir.model,name:lbr_accounting.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de Configuración"
+msgstr "Opciones de configuración"
 
 #. module: lbr_accounting
 #: model:ir.model.fields,field_description:lbr_accounting.field_res_config_settings__module_l10n_es_aeat_sii
@@ -180,12 +180,17 @@ msgstr "Vea información en README o vaya a la"
 #. module: lbr_accounting
 #: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
 msgid "You can install all the AEAT models that you need here."
-msgstr "Puede instalar aquí los modelos de AEAT que necesite."
+msgstr "Puede instalar aquí los modelos de AEAT que necesita."
 
 #. module: lbr_accounting
 #: model_terms:ir.ui.view,arch_db:lbr_accounting.res_config_settings_view_form
 msgid "module page in Odoo Apps"
 msgstr "página del módulo en Odoo Apps"
+
+#. module: account
+#: model:ir.ui.menu,name:account.menu_action_account_moves_all
+msgid "Journal Ledger"
+msgstr "Libro Mayor"
 
 #. module: accounting_pdf_reports
 #: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_generalledger

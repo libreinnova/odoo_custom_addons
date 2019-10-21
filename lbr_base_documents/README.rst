@@ -18,7 +18,11 @@ LBR base documents
 One-click install of document management system
 -----------------------------------------------
 
-This module only does an automatic installation of third-party applications and technical modules for document management system.
+This module does an automatic installation of third-party applications and technical modules for document management system.
+
+Also it adds:
+
+* Disable MuK images preview.
 
 **Attention!** You must have all next modules and their dependencies available to install for use this module.
 
@@ -44,7 +48,7 @@ This module only does an automatic installation of third-party applications and 
       - MuK Documents View
       - A new view that makes working with the document management system easy and fast.
 
-The current module doesn't use or modify any code of this third-party resources.
+The current module doesn't use or copy any code of this third-party resources.
 
 Author
 ------

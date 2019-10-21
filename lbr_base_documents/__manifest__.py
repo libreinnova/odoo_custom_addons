@@ -25,7 +25,9 @@
         'muk_dms_mail',
         'muk_dms_view',
     ],
-    'data': [],
+    'data': [
+        'templates/assets.xml'
+    ],
     'installable': True,
     'application': False,
 }

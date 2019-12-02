@@ -9,6 +9,7 @@ Module | Technical name | Description | Maturity
 [LBR base documents](https://github.com/libreinnova/odoo_custom_addons/tree/12.0/lbr_base_documents) | lbr_base_documents | This module only does an automatic installation of third-party applications and technical modules for document management system.  | ![Stable](https://img.shields.io/badge/Stable-brightgreen.png)
 [LBR easy install](https://github.com/libreinnova/odoo_custom_addons/tree/12.0/lbr_easy_install) | lbr_easy_install | One-click install of base Odoo modules for CRM, projects, sales and HR.  | ![Stable](https://img.shields.io/badge/Stable-brightgreen.png)
 [LBR no partner subscribe](https://github.com/libreinnova/odoo_custom_addons/tree/12.0/lbr_no_partner_subscribe) | lbr_no_partner_subscribe | This module disables subscription for partners for some models.  | ![Beta](https://img.shields.io/badge/Beta-green.png)
+[LBR order help title](https://github.com/libreinnova/odoo_custom_addons/tree/12.0/lbr_order_help_title) | lbr_order_help_title | The module adds help title field in sale & purchase order form, search and list views. | ![Beta](https://img.shields.io/badge/Beta-green.png)
 
 -------------
 

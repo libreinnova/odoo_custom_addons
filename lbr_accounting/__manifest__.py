@@ -21,11 +21,13 @@
         'account',
         'account_balance_line',
         'account_coa_menu',
+        'contract',
         'l10n_es_aeat'
     ],
     'data': [
         'views/account_invoice.xml',
         'views/account_move_line.xml',
+        'views/contract_contract.xml',
         'views/res_config_settings.xml',
     ],
     'external_dependencies': {

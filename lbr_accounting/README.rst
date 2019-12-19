@@ -26,6 +26,7 @@ This module adds various improvements:
 * Install third-party technical modules y applications.
 * Set default type for **invoice** which was created by incoming email server.
 * Allow to install AEAT modules in *General Settings > Accounting* page.
+* Show total in contract tree view.
 
 To install
 ~~~~~~~~~~

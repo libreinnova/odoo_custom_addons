@@ -27,6 +27,9 @@ class AccountInvoice(models.Model):
 
         # We need to use sudo() for check other company data
         self = self.sudo()
+        # Check payment term
+        if self.payment_term_id and self.payment_term_id.company_id.id != cid:
+            message += return_message(_('payment term'), self.payment_term_id.company_id.name)
         # Check journal
         if self.journal_id and self.journal_id.company_id.id != cid:
             message += return_message(_('journal'), self.journal_id.company_id.name)

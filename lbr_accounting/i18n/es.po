@@ -20,8 +20,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:61
-#: code:addons/lbr_accounting/models/contract_contract.py:50
+#: code:addons/lbr_accounting/models/account_invoice.py:64
+#: code:addons/lbr_accounting/models/contract_contract.py:53
 #, python-format
 msgid "\n"
 "You need to use parameters of '%s' company."
@@ -225,52 +225,52 @@ msgid "You can install all the AEAT models that you need here."
 msgstr "Puede instalar aquí los modelos de AEAT que necesita."
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:35
+#: code:addons/lbr_accounting/models/account_invoice.py:38
 #, python-format
 msgid "account"
 msgstr "Cuenta"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:38
-#: code:addons/lbr_accounting/models/contract_contract.py:37
+#: code:addons/lbr_accounting/models/account_invoice.py:41
+#: code:addons/lbr_accounting/models/contract_contract.py:40
 #, python-format
 msgid "fiscal position"
 msgstr "Posición fiscal"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/contract_contract.py:40
+#: code:addons/lbr_accounting/models/contract_contract.py:43
 #, python-format
 msgid "group"
 msgstr "Agrupar"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:32
-#: code:addons/lbr_accounting/models/contract_contract.py:34
+#: code:addons/lbr_accounting/models/account_invoice.py:35
+#: code:addons/lbr_accounting/models/contract_contract.py:37
 #, python-format
 msgid "journal"
 msgstr "Diario"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:46
+#: code:addons/lbr_accounting/models/account_invoice.py:49
 #, python-format
 msgid "line [%s] account"
 msgstr "Cuenta de linea [%s]"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:49
-#: code:addons/lbr_accounting/models/contract_contract.py:45
+#: code:addons/lbr_accounting/models/account_invoice.py:52
+#: code:addons/lbr_accounting/models/contract_contract.py:48
 #, python-format
 msgid "line [%s] analytic account"
 msgstr "Cuenta analítica de linea [%s]"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:53
+#: code:addons/lbr_accounting/models/account_invoice.py:56
 #, python-format
 msgid "line [%s] asset"
 msgstr "Activo de linea [%s]"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:57
+#: code:addons/lbr_accounting/models/account_invoice.py:60
 #, python-format
 msgid "line [%s] tax [%s]"
 msgstr "Linea [%s]: impuesto [%s]"
@@ -281,16 +281,23 @@ msgid "module page in Odoo Apps"
 msgstr "página del módulo en Odoo Apps"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/account_invoice.py:41
+#: code:addons/lbr_accounting/models/account_invoice.py:44
 #, python-format
 msgid "partner bank"
 msgstr "Cuenta bancaria"
 
 #. module: lbr_accounting
-#: code:addons/lbr_accounting/models/contract_contract.py:31
+#: code:addons/lbr_accounting/models/contract_contract.py:34
 #, python-format
 msgid "payment mode"
 msgstr "Modo de pago"
+
+#. module: lbr_accounting
+#: code:addons/lbr_accounting/models/account_invoice.py:32
+#: code:addons/lbr_accounting/models/contract_contract.py:31
+#, python-format
+msgid "payment term"
+msgstr "Términos de pago"
 
 #. module: account
 #: model:ir.ui.menu,name:account.menu_action_account_moves_all

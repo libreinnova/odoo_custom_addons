@@ -26,6 +26,9 @@ class ContractContract(models.Model):
 
         # We need to use sudo() for check other company data
         self = self.sudo()
+        # Check payment term
+        if self.payment_term_id and self.payment_term_id.company_id.id != cid:
+            message += return_message(_('payment term'), self.payment_term_id.company_id.name)
         # Check payment mode
         if self.payment_mode_id and self.payment_mode_id.company_id.id != cid:
             message += return_message(_('payment mode'), self.payment_mode_id.company_id.name)

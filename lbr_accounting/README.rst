@@ -27,6 +27,7 @@ This module adds various improvements:
 * Set default type for **invoice** which was created by incoming email server.
 * Allow to install AEAT modules in *General Settings > Accounting* page.
 * Show total in contract tree view.
+* Add account invoice and contract verification for correct use of multi-company accounts.
 
 To install
 ~~~~~~~~~~

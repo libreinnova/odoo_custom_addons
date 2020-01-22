@@ -46,6 +46,9 @@ This module installs third-party several applications and technical modules:
     * - `l10n_es_aeat <https://www.odoo.com/apps/modules/12.0/l10n_es_aeat/>`_
       - AEAT base
       - Base module for AEAT statements. Requires *account_tax_balance* and *date_range* modules.
+    * - `l10n_es_account_asset <https://github.com/OCA/l10n-spain/tree/12.0/l10n_es_account_asset>`_
+      - Gestión de activos fijos para España
+      - Cambia la gestión estándar de activos fijos de Odoo para acomodarla a las regulaciones españolas.
 
 Author
 ------
@@ -62,6 +65,10 @@ Maintainer
 ~~~~~~~~~~
 
 This module is maintained by Libreinnova, https://libreinnova.com
+
+.. image:: https://libreinnova.com/images/logo.png
+   :alt: Libreinnova
+   :target: https://libreinnova.com
 
 Third-party resources
 ~~~~~~~~~~~~~~~~~~~~~

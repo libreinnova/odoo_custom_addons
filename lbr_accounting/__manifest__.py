@@ -18,10 +18,10 @@
         'static/description/icon.png'
     ],
     'depends': [
-        'account',
         'account_balance_line',
         'account_coa_menu',
         'contract',
+        'l10n_es_account_asset',
         'l10n_es_aeat'
     ],
     'data': [

@@ -23,11 +23,11 @@ This module adds various improvements:
 * Modify *General Settings > Accounting* page.
 * Allow to expand the accounting module with `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
 * Contain Spanish translation for this module.
-* Install third-party technical modules y applications.
+* Install third-party technical modules and applications.
 * Set default type for **invoice** which was created by incoming email server.
 * Allow to install AEAT modules in *General Settings > Accounting* page.
 * Show total in contract tree view.
-* Add account invoice and contract verification for correct use of multi-company accounts.
+* Add **account invoice** and **contract** verification for correct use of multi-company accounts.
 
 To install
 ~~~~~~~~~~

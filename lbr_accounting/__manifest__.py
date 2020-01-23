@@ -21,6 +21,7 @@
         'account_balance_line',
         'account_cancel',
         'account_coa_menu',
+        'account_payment_partner',
         'contract',
         'l10n_es_account_asset',
         'l10n_es_aeat'

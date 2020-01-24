@@ -29,6 +29,11 @@ This module adds various improvements:
 * Show total in contract tree view.
 * Add **account invoice** and **contract** verification for correct use of multi-company accounts.
 
+Attention!
+~~~~~~~~~~
+
+Make sure than you have ``zeep`` Python module installed.
+
 To install
 ~~~~~~~~~~
 

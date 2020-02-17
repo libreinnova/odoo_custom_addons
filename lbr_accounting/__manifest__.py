@@ -24,7 +24,8 @@
         'account_payment_partner',
         'contract',
         'l10n_es_account_asset',
-        'l10n_es_aeat'
+        'l10n_es_aeat',
+        'l10n_es_vat_book'
     ],
     'data': [
         'views/account_invoice.xml',

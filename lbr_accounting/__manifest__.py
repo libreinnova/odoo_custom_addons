@@ -26,6 +26,7 @@
         'contract',
         'l10n_es_account_asset',
         'l10n_es_aeat',
+        'l10n_es_mis_report',
         'l10n_es_vat_book'
     ],
     'data': [

@@ -21,13 +21,14 @@ Expansion of the standard accounting module
 This module adds various improvements:
 
 * Modify *General Settings > Accounting* page.
-* Allow to expand the accounting module with `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
-* Contain Spanish translation for this module.
 * Install third-party accounting technical modules and applications.
 * Set default type for **invoice** which was created by incoming email server.
 * Allow to install AEAT modules in *General Settings > Accounting* page.
 * Show total in contract tree view.
 * Add **account invoice** and **contract** verification for correct use of multi-company accounts.
+
+.. Allow to expand the accounting module with `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
+.. Contain Spanish translation for this module.
 
 Attention!
 ~~~~~~~~~~
@@ -51,7 +52,7 @@ This module installs third-party several applications and technical modules:
     * - `l10n_es_aeat <https://www.odoo.com/apps/modules/12.0/l10n_es_aeat/>`_
       - AEAT base
       - Base module for AEAT statements. Requires *account_tax_balance* and *date_range* modules.
-    * - `l10n_es_account_asset <https://github.com/OCA/l10n-spain/tree/12.0/l10n_es_account_asset>`_
+    * - `l10n_es_account_asset <https://github.com/OCA/l10n-spain/tree/12.0/l10n_es_account_asset/>`_
       - Gestión de activos fijos para España
       - Cambia la gestión estándar de activos fijos de Odoo para acomodarla a las regulaciones españolas.
 
@@ -78,12 +79,10 @@ This module is maintained by Libreinnova, https://libreinnova.com
 Third-party resources
 ~~~~~~~~~~~~~~~~~~~~~
 
-This module needs the following third-party modules:
+This module needs the following third-party repositories:
 
-* `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
-* `Odoo 12 Accounting PDF Reports <https://www.odoo.com/apps/modules/12.0/accounting_pdf_reports/>`_ by Odoo Mates, Odoo SA.
-* `Odoo 12 Assets Management <https://www.odoo.com/apps/modules/12.0/om_account_asset/>`_ by Odoo Mates, Odoo SA.
-* `Odoo 12 Budget Management <https://www.odoo.com/apps/modules/12.0/om_account_budget/>`_ by Odoo Mates, Odoo SA.
+* `Odoo Accountant Financial Tools and Utils <https://github.com/OCA/account-financial-tools>`_ by OCA
+* `Odoo Spain Localization <https://github.com/OCA/l10n-spain>`_ by OCA
 
 Disclaimer of Warranties
 ------------------------

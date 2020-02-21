@@ -83,6 +83,7 @@ This module needs the following third-party repositories:
 
 * `Odoo Accountant Financial Tools and Utils <https://github.com/OCA/account-financial-tools>`_ by OCA
 * `Odoo Spain Localization <https://github.com/OCA/l10n-spain>`_ by OCA
+* `Management Information System reports for Odoo <https://github.com/OCA/mis-builder>`_ by OCA
 
 Disclaimer of Warranties
 ------------------------

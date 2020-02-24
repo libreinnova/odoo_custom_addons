@@ -22,13 +22,13 @@
         'account_cancel',
         'account_chart_update',
         'account_coa_menu',
+        'account_financial_report',
         'account_payment_partner',
         'contract',
         'l10n_es_account_asset',
         'l10n_es_aeat',
         'l10n_es_mis_report',
         'l10n_es_vat_book',
-        'mis_builder'
     ],
     'data': [
         'views/account_invoice.xml',

@@ -1,5 +1,5 @@
-.. |maturity| image:: https://img.shields.io/badge/maturity-Stable-brightgreen.png
-    :alt: Stable
+.. |maturity| image:: https://img.shields.io/badge/maturity-Beta-green.png
+    :alt: Beta
 
 .. |badge1| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
@@ -15,11 +15,12 @@ LBR supplier stock picking
 
 |maturity| |badge1| |badge2|
 
-Adds supplier's stock picking date and number to stock picking
---------------------------------------------------------------
+Supplier's stock picking date and number
+----------------------------------------
 
-This module contains dependencies with other modules.
+This module adds supplier's date and number fields for stick pickings.
 
+These fields are informational only.
 
 Author
 ------
@@ -31,6 +32,7 @@ Contributors
 
 * Libreinnova
 * Gabriel Nogueira, gabriel@libreinnova.com
+* Pavel Smirnov, pavel@libreinnova.com
 
 Maintainer
 ~~~~~~~~~~

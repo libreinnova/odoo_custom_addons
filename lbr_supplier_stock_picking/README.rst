@@ -18,7 +18,7 @@ LBR supplier stock picking
 Supplier's stock picking date and number
 ----------------------------------------
 
-This module adds supplier's date and number fields for stick pickings.
+This module adds supplier's date and number fields for stock picking.
 
 These fields are informational only.
 

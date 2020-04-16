@@ -24,6 +24,8 @@
         'account_coa_menu',
         'account_financial_report',
         'account_payment_partner',
+        'account_banking_sepa_credit_transfer',
+        'account_banking_sepa_direct_debit',
         'contract',
         'l10n_es_account_asset',
         'l10n_es_aeat',

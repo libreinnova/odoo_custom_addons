@@ -22,6 +22,7 @@ This module adds various improvements:
 
 * Modify *General Settings > Accounting* page.
 * Install third-party accounting technical modules and applications.
+* Install third-party SEPA modules by OCA.
 * Set default type for **invoice** which was created by incoming email server.
 * Allow to install AEAT modules in *General Settings > Accounting* page.
 * Show total in contract tree view.

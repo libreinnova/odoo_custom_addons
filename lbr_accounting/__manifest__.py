@@ -31,6 +31,7 @@
     ],
     'data': [
         'views/account_invoice.xml',
+        'views/account_invoice_line.xml',
         'views/account_move_line.xml',
         'views/contract_contract.xml',
         'views/res_config_settings.xml',

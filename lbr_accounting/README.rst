@@ -28,6 +28,7 @@ This module adds various improvements:
 * Allow to install AEAT modules in *General Settings > Accounting* page.
 * Show total in contract tree view.
 * Add **account invoice** and **contract** verification for correct use of multi-company accounts.
+* Add account invoice line tree view for customers.
 
 Attention!
 ~~~~~~~~~~

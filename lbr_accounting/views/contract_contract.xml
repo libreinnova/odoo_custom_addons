@@ -18,7 +18,7 @@
         <field name="inherit_id" ref="contract.contract_contract_form_view"/>
         <field name="arch" type="xml">
             <xpath expr="//button[@name='action_contract_send']" position="before">
-                <button name="action_contract_verify_accounts" type="object" string="Verify accounts" class="oe_highlight oe_read_only" groups="account.group_account_invoice"/>
+                <button name="action_contract_verify_accounts" type="object" string="Verify accounts" class="oe_highlight oe_read_only" groups="base.group_multi_company"/>
             </xpath>
         </field>
     </record>

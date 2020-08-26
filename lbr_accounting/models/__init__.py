@@ -6,4 +6,4 @@
 #
 ###############################################################################
 
-from . import account_invoice, contract_contract, res_config_settings
+from . import account_invoice, account_account, contract_contract, res_config_settings

@@ -28,6 +28,7 @@ This module adds various improvements:
 * Show total in contract tree view.
 * Add **account invoice** and **contract** verification for correct use of multi-company accounts.
 * Add account invoice line tree view for customers.
+* Add company name to account name.
 
 .. Allow to expand the accounting module with `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
 .. Contain Spanish translation for this module.

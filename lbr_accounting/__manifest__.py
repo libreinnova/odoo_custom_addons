@@ -26,7 +26,7 @@
         'account_payment_partner',
         'account_banking_sepa_credit_transfer',
         'account_banking_sepa_direct_debit',
-        'contract',
+        'contract_payment_mode',
         'l10n_es_account_asset',
         'l10n_es_aeat',
         'l10n_es_mis_report',

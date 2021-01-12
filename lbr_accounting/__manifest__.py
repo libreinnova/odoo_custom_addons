@@ -28,7 +28,7 @@
         'account_banking_sepa_direct_debit',
         'contract_payment_mode',
         'l10n_es_account_asset',
-        'l10n_es_aeat',
+        'l10n_es_aeat_mod190',
         'l10n_es_mis_report',
         'l10n_es_vat_book',
     ],

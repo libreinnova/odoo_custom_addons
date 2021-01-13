@@ -40,4 +40,6 @@ class L10nEsAeatMod190Report(models.Model):
                 raise exceptions.UserError(
                     _("You have to recalculate the report before confirm it.\n%s") % valid_error)
         self._check_report_lines()
-        return super(L10nEsAeatMod190Report, self).button_confirm()
+        # Confirm the report
+        self.write({'state': 'done'})
+        return True

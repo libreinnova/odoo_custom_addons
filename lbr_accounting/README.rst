@@ -25,11 +25,18 @@ This module adds various improvements:
 * Install third-party SEPA modules by OCA.
 * Set default type for **invoice** which was created by incoming email server.
 * Allow to install AEAT modules in *General Settings > Accounting* page.
-* Show total in contract tree view.
-* Add **account invoice** and **contract** verification for correct use of multi-company accounts.
+* Add **invoice** accounts verification for correct use of multi-company accounts.
 * Add account invoice line tree view for customers.
 * Add company name to account name.
 * Fix compute rounding on AEAT mod190 report.
+* Show **Allow Cancelling Entries** field on journals without debug mode (only account managers).
+
+Contracts
+~~~~~~~~~
+
+* Show total in contract tree view.
+* Add **contract** accounts verification for correct use of multi-company accounts.
+* Show **Create invoices** button without debug mode.
 
 .. Allow to expand the accounting module with `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
 .. Contain Spanish translation for this module.

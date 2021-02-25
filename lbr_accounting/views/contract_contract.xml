@@ -20,6 +20,9 @@
             <xpath expr="//button[@name='action_contract_send']" position="before">
                 <button name="action_contract_verify_accounts" type="object" string="Verify accounts" class="oe_highlight oe_read_only" groups="base.group_multi_company"/>
             </xpath>
+            <xpath expr="//button[@name='recurring_create_invoice']" position="attributes">
+                <attribute name="groups">account.group_account_invoice</attribute>
+            </xpath>
         </field>
     </record>
 

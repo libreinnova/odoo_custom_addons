@@ -9,6 +9,9 @@
             <xpath expr="//field[@name='update_posted']" position="attributes">
                 <attribute name="groups">account.group_account_manager</attribute>
             </xpath>
+            <xpath expr="//field[@name='update_posted']/parent::group" position="inside">
+                <field name="not_in_trial_balance_report" groups="account.group_account_manager"/>
+            </xpath>
         </field>
     </record>
 

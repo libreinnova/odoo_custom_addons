@@ -30,6 +30,7 @@ This module adds various improvements:
 * Add company name to account name.
 * Fix compute rounding on AEAT mod190 report.
 * Show **Allow Cancelling Entries** field on journals without debug mode (only account managers).
+* Automatically assign journals in trial balance report wizard. You can check **'Not included in trial balance report'** on the journal view.
 
 Contracts
 ~~~~~~~~~

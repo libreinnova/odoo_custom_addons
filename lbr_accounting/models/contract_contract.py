@@ -53,3 +53,13 @@ class ContractContract(models.Model):
             message_summary_pattern = _("\nYou need to use parameters of '%s' company.")
             message += message_summary_pattern % self.company_id.name
             raise ValidationError(message)
+
+    def _message_subscribe(self, partner_ids=None, channel_ids=None, subtype_ids=None, customer_ids=None):
+        # Don't add partners as a followers in contracts
+        if partner_ids:
+            users = self.env['res.users'].search([('partner_id', 'in', partner_ids)])
+            # Only add contact as a follower if it has a assigned Odoo user
+            partner_ids = users.mapped('partner_id').ids if users else []
+        # Call to super with modified 'partner_ids' list
+        return super(ContractContract, self)._message_subscribe(
+            partner_ids=partner_ids, channel_ids=channel_ids, subtype_ids=subtype_ids, customer_ids=customer_ids)

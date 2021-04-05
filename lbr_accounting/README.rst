@@ -38,6 +38,7 @@ Contracts
 * Show total in contract tree view.
 * Add **contract** accounts verification for correct use of multi-company accounts.
 * Show **Create invoices** button without debug mode.
+* Do not allow adding partners as followers.
 
 .. Allow to expand the accounting module with `Odoo 12 Accounting <https://www.odoo.com/apps/modules/12.0/om_account_accountant/>`_ by Odoo Mates, Odoo SA.
 .. Contain Spanish translation for this module.

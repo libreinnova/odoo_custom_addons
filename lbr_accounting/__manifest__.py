@@ -23,6 +23,7 @@
         'account_chart_update',
         'account_coa_menu',
         'account_financial_report',
+        'account_fiscal_year_closing',
         'account_lock_date_update',
         'account_payment_partner',
         'account_banking_sepa_credit_transfer',

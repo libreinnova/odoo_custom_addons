@@ -7,7 +7,7 @@ class AccountAccount(models.Model):
 
     display_name = fields.Char('Display name', compute='compute_display_name')
 
-    @api.depends('company_id', 'name', 'code')
+    @api.depends('company_id', 'company_id.name', 'name', 'code')
     def compute_display_name(self):
         is_multi_company = True if self.env['res.company'].search_count([]) > 1 else False
         for account in self:

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# Copyright(c): 2019 Libreinnova (<https://libreinnova.com/>)
+# Copyright(c): 2021 Libreinnova (<https://libreinnova.com/>)
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
 # All Rights Reserved
 #
@@ -19,11 +19,8 @@
     ],
     'depends': [
         'account_balance_line',
-        'account_cancel',
         'account_chart_update',
-        'account_coa_menu',
         'account_financial_report',
-        'account_fiscal_year_closing',
         'account_lock_date_update',
         'account_payment_partner',
         'account_banking_sepa_credit_transfer',
@@ -35,10 +32,7 @@
         'l10n_es_vat_book',
     ],
     'data': [
-        'views/account_invoice.xml',
-        'views/account_invoice_line.xml',
         'views/account_journal.xml',
-        'views/account_move_line.xml',
         'views/contract_contract.xml',
         'views/res_config_settings.xml',
     ],

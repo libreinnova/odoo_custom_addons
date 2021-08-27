@@ -4,10 +4,6 @@ from odoo import api, fields, models
 class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
-    # module_om_account_accountant = fields.Boolean(
-    #     string='Odoo12 Accounting (by Odoo Mates & Odoo SA)',
-    #     help='Accounting Reports, Asset Management and Account Budget For Odoo12 Community Edition')
-
     module_l10n_es_account_bank_statement_import_n43 = fields.Boolean(
         string='Import of Spanish bank statements (Rule 43)',
         help='Click here to install this module '
@@ -53,7 +49,7 @@ class ResConfigSettings(models.TransientModel):
         help='Click here to install this module '
              '(by Tecnativa, Odoo Community Association (OCA))')
 
-    module_l10n_es_aeat_sii = fields.Boolean(
+    module_l10n_es_aeat_sii_oca = fields.Boolean(
         string='Immediate Supply of Information on VAT (SII)',
         help='Click here to install this module '
              '(by Acysos S.L., Diagram, Minorisa, Studio73, FactorLibre, Comunitea, Otherway, Tecnativa, '

@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    <record id="account_cancel_journal_form" model="ir.ui.view">
-        <field name="name">Inherit account journal cancel form view</field>
+    <record id="account_journal_form_view" model="ir.ui.view">
+        <field name="name">Inherit account journal form view</field>
         <field name="model">account.journal</field>
-        <field name="inherit_id" ref="account_cancel.view_account_journal_form_inherit"/>
+        <field name="inherit_id" ref="account.view_account_journal_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='update_posted']" position="attributes">
-                <attribute name="groups">account.group_account_manager</attribute>
-            </xpath>
-            <xpath expr="//field[@name='update_posted']/parent::group" position="inside">
-                <field name="not_in_trial_balance_report" groups="account.group_account_manager"/>
+            <xpath expr="//page[@name='advanced_settings']/group" position="inside">
+                <group groups="account.group_account_manager">
+                    <field name="not_in_trial_balance_report"/>
+                </group>
             </xpath>
         </field>
     </record>

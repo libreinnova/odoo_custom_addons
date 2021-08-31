@@ -59,7 +59,7 @@ that the current application will be uninterrupted, timely, secure, or error-fre
 
 -------------
 
-Copyright(c): 2020 Libreinnova (https://libreinnova.com/)
+Copyright(c): 2021 Libreinnova (https://libreinnova.com/)
 
 All Rights Reserved
 

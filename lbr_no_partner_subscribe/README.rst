@@ -25,6 +25,7 @@ This module disables subscription for partners in the next models:
 * CRM opportunity *(crm.lead)*
 * Project *(project.project)*
 * Project task *(project.task)*
+* Invoice *(account.move)*
 
 Author
 ------

@@ -10,7 +10,7 @@
     'version': '1.0',
     'summary': 'Disable partner subscription in mail thread',
     'description': '',
-    'category': 'Sale',
+    'category': 'Tools',
     'author': 'Libreinnova',
     'website': 'https://libreinnova.com/',
     'license': 'AGPL-3',

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0"><!-- TODO: change to 1 on production -->
+
+        <record id="weekday_1_mo" model="weekday.weekday">
+            <field name="name">Monday</field>
+            <field name="code">MO</field>
+            <field name="sequence" eval="1"/>
+        </record>
+
+        <record id="weekday_2_tu" model="weekday.weekday">
+            <field name="name">Tuesday</field>
+            <field name="code">TU</field>
+            <field name="sequence" eval="2"/>
+        </record>
+
+        <record id="weekday_3_we" model="weekday.weekday">
+            <field name="name">Wednesday</field>
+            <field name="code">WE</field>
+            <field name="sequence" eval="3"/>
+        </record>
+
+        <record id="weekday_4_th" model="weekday.weekday">
+            <field name="name">Thursday</field>
+            <field name="code">TH</field>
+            <field name="sequence" eval="4"/>
+        </record>
+
+        <record id="weekday_5_fr" model="weekday.weekday">
+            <field name="name">Friday</field>
+            <field name="code">FR</field>
+            <field name="sequence" eval="5"/>
+        </record>
+
+        <record id="weekday_6_fr" model="weekday.weekday">
+            <field name="name">Saturday</field>
+            <field name="code">ST</field>
+            <field name="sequence" eval="6"/>
+            <field name="weekend" eval="True"/>
+        </record>
+
+        <record id="weekday_7_fr" model="weekday.weekday">
+            <field name="name">Sunday</field>
+            <field name="code">SN</field>
+            <field name="sequence" eval="7"/>
+            <field name="weekend" eval="True"/>
+        </record>
+
+    </data>
+</odoo>

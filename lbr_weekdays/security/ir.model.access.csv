@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+public_access_weekday_weekday,read access to weekday,model_weekday_weekday,base.group_public,1,0,0,0
+portal_access_weekday_weekday,read access to weekday,model_weekday_weekday,base.group_portal,1,0,0,0
+read_access_weekday_weekday,read access to weekday,model_weekday_weekday,base.group_user,1,0,0,0
+admin_access_weekday_weekday,admin access to weekday,model_weekday_weekday,base.group_system,1,1,1,1

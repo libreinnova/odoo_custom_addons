@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="weekday_weekday_tree_view" model="ir.ui.view">
+        <field name="name">Weekday tree view</field>
+        <field name="model">weekday.weekday</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="code" widget="float_time"/>
+                <field name="weekend"/>
+                <field name="sequence" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="weekday_weekday_form_view" model="ir.ui.view">
+        <field name="name">Weekday form view</field>
+        <field name="model">weekday.weekday</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <label class="oe_edit_only" for="name"/>
+                        <h3><field name="name"/></h3>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="weekend"/>
+                            <field name="sequence"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="weekday_weekday_search_view" model="ir.ui.view">
+        <field name="name">Weekday search view</field>
+        <field name="model">weekday.weekday</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="code"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>

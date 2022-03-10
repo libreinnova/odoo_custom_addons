@@ -9,14 +9,14 @@
     :target: https://github.com/libreinnova/odoo_custom_addons
     :alt: Libreinnova custom addons repository
 
-====================
+======================
 LBR activity no notify
-====================
+======================
 
 |maturity| |badge1| |badge2|
 
-Remove notification mail
----------------------------------
+Disable activity mail crate notification
+----------------------------------------
 
 The module removes the notification that is sent by mail when an activity is created.
 
@@ -29,6 +29,7 @@ Contributors
 ~~~~~~~~~~~~
 
 * Libreinnova
+* Samuel Collazo, samuel@libreinnova.com
 * Pavel Smirnov, pavel@libreinnova.com
 
 Other credits
@@ -57,7 +58,7 @@ that the current application will be uninterrupted, timely, secure, or error-fre
 
 -------------
 
-Copyright(c): 2019 Libreinnova (https://libreinnova.com/)
+Copyright(c): 2022 Libreinnova (https://libreinnova.com/)
 
 All Rights Reserved
 

@@ -31,7 +31,7 @@
         'account_renumber',
         'contract_payment_mode',
         'l10n_es_account_asset',
-        'l10n_es_account_invoice_sequence',
+        # 'l10n_es_account_invoice_sequence',
         'l10n_es_aeat_mod190',
         'l10n_es_mis_report',
         'l10n_es_vat_book',
